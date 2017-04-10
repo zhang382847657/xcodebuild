@@ -5,7 +5,7 @@
 
 _-project   指向xcode工程文件的路径_ <br>
 _-archivePath  导出的归档的文件路径_ <br>
-_-scheme  项目的scheme名字  注意不是target名字，大部门这两个概念名字一致，但是要区分这是两个不同的东西_ <br>
+_-scheme  项目的scheme名字_ <br>
 _-configuration  通常设置Debug或者Release_ <br>
 _-DEVELOPMENT_TEAM  苹果开发者团队TEAMID_ 
 <br><br>
@@ -15,7 +15,7 @@ _-DEVELOPMENT_TEAM  苹果开发者团队TEAMID_
 
 _-project   指向xcode工程文件的路径_ <br>
 _-archivePath  导出的归档的文件路径_ <br>
-_-scheme  项目的scheme名字  注意不是target名字，大部门这两个概念名字一致，但是要区分这是两个不同的东西_ <br>
+_-scheme  项目的scheme名字_ <br>
 _-configuration  通常设置Debug或者Release_ <br>
 _-DEVELOPMENT_TEAM  苹果开发者团队TEAMID_ <br>
 _-CODE_SIGN_IDENTITY  证书名字（一定要去钥匙串里复制粘贴正确的证书名）_<br>
