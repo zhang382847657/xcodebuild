@@ -69,7 +69,7 @@ xcodebuild -exportArchive -archivePath ${***.xcarchive} -exportPath ${导出ipa�
 
 - 方法二：使用手动添加证书、描述文件进行归档
 	```
-xcodebuild -project ${***.xcodeproj}  -archivePath  ${***.xcarchive} -scheme ${scheme} -configuration ${buildConfiguration} iphoneos archive DEVELOPMENT_TEAM=${teamId}CODE_SIGN_IDENTITY=${证书名字} PROVISIONING_PROFILE_SPECIFIER=${描述文件名字}
+	xcodebuild -project ${***.xcodeproj}  -archivePath  ${***.xcarchive} -scheme ${scheme} -configuration ${buildConfiguration} iphoneos archive DEVELOPMENT_TEAM=${teamId}CODE_SIGN_IDENTITY=${证书名字} PROVISIONING_PROFILE_SPECIFIER=${描述文件名字}
 	```
 	> - project： 指向xcode工程文件的路径
 	> - archivePath： 导出的归档的文件路径
