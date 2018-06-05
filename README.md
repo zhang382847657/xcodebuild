@@ -11,7 +11,7 @@
 xcodebuild archive -workspace ${***.xcworkspace} -scheme ${scheme} -configuration ${buildConfiguration} -archivePath ${***.xcarchive}
 ```
 
-> - workspace： `xcworkspace`所在的绝对路径
+> - workspace： `xcworkspace`所在的绝对路径，如果是`.xcodeproj`类型的文件，把 `-workspace`替换成`-project`
 > - scheme： 项目scheme名字
 > - configuration： 通常设置Debug或者Release
 > - archivePath： 导出的归档文件的绝对路径
